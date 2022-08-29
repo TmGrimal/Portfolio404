@@ -1,0 +1,77 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.fondo{
+  height: 90%;
+  width: 100%;
+  background-image:url("https://punithraaj.github.io/Personal-Portfolio-Angular/assets/images/introduction.jpg")
+;
+}
+
+.col-md-6{
+  margin-top: 10%;
+}
+
+
+.container-fluid{
+background-color: transparent;
+}
+
+
+.grupo3{
+  color: white;
+  margin-top: 2%;
+}
+
+.mat-raised-button{
+  background-color: transparent;
+  box-shadow: none;
+
+}
+
+
+.fotoperfil{
+  width: 180px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+
+.texto1{
+color: white;
+font-size:30px;
+margin-top: -75px;
+}
+
+.texto2{
+  color: white;
+  font-size:12px;
+  margin-top: 0px;
+  }
+
+
+#botones{
+ margin-top: 107px;
+}
+
+button{
+
+
+    margin-left: 1%;
+
+}
+.abajo{
+  margin-top: 7%;
+}
+.flotante {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+
+
+  }
+
