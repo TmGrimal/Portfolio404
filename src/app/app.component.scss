@@ -3,13 +3,16 @@
   padding: 0%;
 }
 .fondo{
-  height: 90%;
+  height: 540px;
   width: 100%;
-  background-image:url("https://punithraaj.github.io/Personal-Portfolio-Angular/assets/images/introduction.jpg")
+  background-image:url("https://images.alphacoders.com/835/83521.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 57%;
+  background-position-y: 22%
 ;
 }
 
-.col-md-6{
+.FT{
   margin-top: 10%;
 }
 
@@ -52,7 +55,7 @@ margin-top: -75px;
 
 
 #botones{
- margin-top: 107px;
+ margin-top: 55px;
 }
 
 button{
@@ -62,7 +65,7 @@ button{
 
 }
 .abajo{
-  margin-top: 7%;
+  margin-top: 10%;
 }
 .flotante {
 
@@ -74,4 +77,12 @@ button{
 
 
   }
-
+.CL{
+  color: white;
+  margin-left: 60%;
+}
+.cartel{
+width: 90%;
+margin-left: 5%;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}

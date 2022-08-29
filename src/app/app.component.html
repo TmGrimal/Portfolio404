@@ -1,35 +1,34 @@
-<div class="fondo">
-  <div class="flotante">
-  <div class="container-fluid">
 
-  <div class="row ">
-
-
-    <div class="col-md-4">
-     <p class="grupo3">Grupo 3</p>
-    </div>
-    <div class="col-md-2">
-      <button mat-raised-button color="primary">1</button>
-    </div>
-    <div class="col-md-2">
-      <button mat-raised-button  color="primary">2 </button>
-    </div>
-    <div class="col-md-2">
-      <button mat-raised-button color="primary">3</button>
-    </div>
-      <div class="col-md-2">
-        <button mat-raised-button color="primary">4</button>
+  <nav class="navbar navbar-expand-lg navbar-dark flotante">
+    <div class="container-fluid">
+      <a style="margin-left:100px" class="navbar-brand" href="#">Grupo 3</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav CL">
+          <li class="nav-item">
+            <button mat-button >Botonaso 1</button>
+          </li>
+          <li class="nav-item">
+            <button mat-button>Botonaso 2</button>
+          </li>
+          <li class="nav-item">
+            <button mat-button>Botonaso 3</button>
+          </li>
+          <li class="nav-item">
+            <button mat-button>Botonaso 4</button>
+          </li>
+        </ul>
       </div>
-
-  </div>
-</div>
-</div>
-
+    </div>
+  </nav>
+  <div class="fondo">
 
 <div class="container-fluid">
   <div class="row text-center">
     <div class="col-md-3"></div>
-    <div class="col-md-6">
+    <div class="col-md-6 FT">
     <img class="fotoperfil" src="https://punithraaj.github.io/Personal-Portfolio-Angular/assets/images/profile.JPG" alt="">
       </div>
       <div class="col-md-3"></div>
@@ -41,7 +40,7 @@
   <div class="container-fluid">
     <div class="row text-center">
       <div class="col-md-3"></div>
-      <div class="col-md-6">
+      <div class="col-md-6 FT">
         <div class="texto1">
           <p>grupo 3 asdasd</p>
         </div>
@@ -66,8 +65,8 @@
     </div>
     <div class="container-fluid">
       <div class="row text-center">
-        <div class="col-md-3"></div>
-        <div class="col-md-6" id="botones">
+
+        <div class="col-md-12 text-center " id="botones">
           <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
             <mat-icon>delete</mat-icon>
           </button>
@@ -81,26 +80,24 @@
             <mat-icon>delete</mat-icon>
           </button>
         </div>
-          <div class="col-md-3"></div>
+
 
       </div>
     </div>
   </div>
   <div class="container-fluid">
+<mat-card class="cartel abajo">
+    <div class="row">
+          <div class="col-md-6">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione consequuntur error, sit ab quis quisquam eos perferendis beatae in nesciunt saepe consectetur natus ipsa. Illum molestias labore quaerat tempore.</p>
+          </div>
+          <div class="col-md-6">
 
-    <div class="row abajo">
-        <div class="col-md-1">
-        </div >
-        <div class="col-md-5">
-          <p>hola</p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, accusantium doloremque soluta error temporibus alias enim porro in aliquid consequuntur nesciunt obcaecati libero ea sint nobis quas fugiat laudantium beatae.
           </div>
-          <div class="col-md-5">
-            agulino puto! asdasd!!
-          </div>
-          <div class="col-md-1">
-          </div>
+
        </div>
-
+</mat-card>
     </div>
   </div>
 <router-outlet></router-outlet>
