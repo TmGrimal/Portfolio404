@@ -10,6 +10,7 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatCardModule} from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
 
 
 
@@ -29,6 +30,8 @@ import {MatCardModule} from '@angular/material/card';
     MatButtonModule,
     MatProgressBarModule,
     MatCardModule,
+    MatListModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

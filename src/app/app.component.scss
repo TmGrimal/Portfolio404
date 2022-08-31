@@ -14,6 +14,7 @@
 
 .FT{
   margin-top: 10%;
+
 }
 
 
@@ -38,19 +39,19 @@ background-color: transparent;
   width: 180px;
   height: 150px;
   border-radius: 100%;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
 }
 
 
 .texto1{
 color: white;
 font-size:30px;
-margin-top: -75px;
+margin-top: 5%;
 }
 
 .texto2{
   color: white;
   font-size:12px;
-  margin-top: 0px;
   }
 
 
@@ -84,5 +85,39 @@ button{
 .cartel{
 width: 90%;
 margin-left: 5%;
-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
+.LL{
+  font-family: 'Source Serif Pro', serif;
+
+}
+.EE {
+  font-size: 30px;
+  margin-left: 2%;
+}
+.NB{
+  background: rgba(8, 8, 8, 0.5)
+}
+.progress{
+  margin: 2%
+}
+.progreso b {
+  margin-left: 2%;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 20px;
+
+}
+
+.redes a{
+  margin: 1%;
+}
+
+.cartel2{
+  width: 70%;
+  margin-left: 15%;
+  box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+
+
+}
+
