@@ -11,6 +11,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
+import { HeaderComponent } from './header/header.component';
+import { PerfilComponent } from './perfil/perfil.component';
+import { InfoComponent } from './info/info.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -18,7 +24,13 @@ import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    PerfilComponent,
+    InfoComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
