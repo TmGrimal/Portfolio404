@@ -2,15 +2,7 @@
   margin: 0%;
   padding: 0%;
 }
-.fondo{
-  height: 540px;
-  width: 100%;
-  background-image:url("https://images.alphacoders.com/835/83521.jpg");
-  background-repeat: no-repeat;
-  background-position-x: 57%;
-  background-position-y: 22%
-;
-}
+
 
 .FT{
   margin-top: 10%;
@@ -36,10 +28,13 @@ background-color: transparent;
 
 
 .fotoperfil{
-  width: 180px;
-  height: 150px;
+  width: 200px;
+  height: 220px;
   border-radius: 100%;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+  border-color: rgb(68, 25, 71);
+  border-width: 3px;
+  border-style: dotted;
+ 
 }
 
 

@@ -2,124 +2,35 @@
   margin: 0%;
   padding: 0%;
 }
-.fondo{
-  height: 540px;
-  width: 100%;
-  background-image:url("https://images.alphacoders.com/835/83521.jpg");
-  background-repeat: no-repeat;
-  background-position-x: 57%;
-  background-position-y: 22%
-;
-}
 
-.FT{
-  margin-top: 10%;
-
-}
-
-
-.container-fluid{
-background-color: transparent;
-}
-
-
-.grupo3{
-  color: white;
-  margin-top: 2%;
-}
-
-.mat-raised-button{
-  background-color: transparent;
-  box-shadow: none;
-
-}
-
-
-.fotoperfil{
-  width: 180px;
-  height: 150px;
-  border-radius: 100%;
-  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
-}
-
-
-.texto1{
-color: white;
-font-size:30px;
-margin-top: 5%;
-}
-
-.texto2{
-  color: white;
-  font-size:12px;
-  }
-
-
-#botones{
- margin-top: 55px;
-}
-
-button{
-
-
-    margin-left: 1%;
-
-}
 .abajo{
-  margin-top: 10%;
+  margin-top: 5%;
 }
-.flotante {
 
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  width: 100%;
-
-
-  }
-.CL{
-  color: white;
-  margin-left: 60%;
-}
 .cartel{
 width: 90%;
 margin-left: 5%;
 box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+
+
 }
 .LL{
-  font-family: 'Source Serif Pro', serif;
-
-}
-.EE {
-  font-size: 30px;
-  margin-left: 2%;
-}
-.NB{
-  background: rgba(8, 8, 8, 0.5)
-}
-.progress{
-  margin: 2%
-}
-.progreso b {
-  margin-left: 2%;
-  font-family: 'Source Serif Pro', serif;
-  font-size: 20px;
-
-}
-
-.redes a{
-  margin: 1%;
-}
-
-.cartel2{
-  width: 70%;
-  margin-left: 15%;
-  box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-
-
+  font-family: 'Courgette', cursive;
 
 
 }
 
+p{
+  letter-spacing: 0.5px;
+  margin-top: 30px;
+  margin-right: 30px;
+  line-height: 21px;
+  font-size: 15px;
+}
 
+#carta1{
+  background-image: url(../../assets/minimalist_wallpaper__the_hacker_cat__by_laurentiudanu_d9lr9x3-fullview.jpg);
+  background-position-x: 30px;
+  background-size: cover;
+
+}
