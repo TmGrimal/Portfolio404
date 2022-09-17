@@ -112,19 +112,19 @@ box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 
 
 }
-#video {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  z-index: -1;
-}
-.fondo{
-  height: 613px;
-  width: 100%;
-  background-image:url("../assets/84136-cat-artist-artwork-digital-art-hd-minimalism-minimalist.jpg");
-  background-repeat: no-repeat;
-  background-position-x: 50%;
-  background-position-y: 22%
-}
 
+.fondo{
+  height: 100%;
+  width: 100%;
+  background-image:url("../assets/fondo\ pintura.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#backVideo{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: -150px;
+ 
+}
