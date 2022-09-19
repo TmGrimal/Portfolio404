@@ -1,30 +1,22 @@
-<header class="LL">
-  <app-header></app-header> 
-  <app-perfil></app-perfil>
-     <video
+    <header class="LL">
+      <video
      oncanplay="this.play()"
      onloadeddata="this.muted=true"
      muted="muted"
      loop="loop"
      autoplay
      id="backVideo"
-     #videoRef
-   > 
-    <div class="fondo">
-  
-   
-     </div><app-info></app-info>
+     #videoRef> 
+      <source src="../assets/video.mp4" type="video/mp4" /> 
+   </video> 
+   <div class="fondo"> </div>
+   <app-header></app-header> 
+  <app-perfil></app-perfil>
+    <app-info></app-info>
      <app-skills></app-skills>
      <app-projects></app-projects>
-     <app-footer></app-footer>
-   <!-- aca en src indicar la ruta del video y en type el tipo de archivo Your
-   browser does not support HTML5 video. -->
-     <source src="../assets/Pexels Videos 1943484.mp4" type="video/mp4" /> 
-    
-   </video>
-
-   
-</header>
+     <app-footer></app-footer> 
+    </header>
 <router-outlet></router-outlet>
 
 
