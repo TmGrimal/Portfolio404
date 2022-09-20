@@ -3,114 +3,42 @@
   padding: 0%;
 }
 
-
 .FT{
-  margin-top: 10%;
-
+  margin-top: 8%;
+  margin-bottom: 2%;
+  z-index:2;
 }
-
 
 .container-fluid{
 background-color: transparent;
 }
-
-
-.grupo3{
-  color: white;
-  margin-top: 2%;
-}
-
-.mat-raised-button{
-  background-color: transparent;
-  box-shadow: none;
-
-}
-
 
 .fotoperfil{
   width: 200px;
   height: 200px;
   border-radius: 100%;
   border-width: 3px; 
-
 }
 
-
 .texto1{
-color: rgb(255, 255, 255);
+  color: rgb(190, 187, 190);
 font-size:30px;
 margin-top: 2%;
 }
 
 .texto2{
-  color: rgb(255, 255, 255);
+  color: rgb(190, 187, 190);
   font-size:12px;
   }
-
-button{
-
-
-    margin-left: 1%;
-
-}
-.abajo{
-  margin-top: 10%;
-}
-.flotante {
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999;
-  width: 100%;
-
-
-  }
-.CL{
-  color: white;
-  margin-left: 60%;
-}
-.cartel{
-width: 90%;
-margin-left: 5%;
-box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-}
-.LL{
-  font-family: 'Source Serif Pro', serif;
-
-}
-.EE {
-  font-size: 30px;
-  margin-left: 2%;
-}
-.NB{
-  background: rgba(8, 8, 8, 0.5)
-}
-.progress{
-  margin: 2%
-}
-.progreso b {
-  margin-left: 2%;
-  font-family: 'Source Serif Pro', serif;
-  font-size: 20px;
-
-}
 
 .redes a{
   margin: 8px;
 }
 
-.cartel2{
-  width: 70%;
-  margin-left: 15%;
-  box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-
-
-
-
-}
 #botones{
  margin-bottom: -27px;
 }
 
-
+.tam{
+  background-color: transparent;
+}

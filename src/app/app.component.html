@@ -1,21 +1,20 @@
-    <header class="LL">
-      <video
-     oncanplay="this.play()"
-     onloadeddata="this.muted=true"
-     muted="muted"
-     loop="loop"
-     autoplay
-     id="backVideo"
-     #videoRef> 
-      <source src="../assets/video.mp4" type="video/mp4" /> 
-   </video> 
-   <div class="fondo"> </div>
-   <app-header></app-header> 
-  <app-perfil></app-perfil>
+    <header class="LL"> 
+    <app-header></app-header> 
+        <video
+        oncanplay="this.play()"
+        onloadeddata="this.muted=true"
+        muted="muted"
+        loop="loop"
+        autoplay
+        id="backVideo"
+        #videoRef> 
+      <source src="../assets/ramas.mp4" type="video/mp4" />
+     </video>
+    <app-perfil></app-perfil>
     <app-info></app-info>
      <app-skills></app-skills>
      <app-projects></app-projects>
-     <app-footer></app-footer> 
+     <app-footer></app-footer>  
     </header>
 <router-outlet></router-outlet>
 
