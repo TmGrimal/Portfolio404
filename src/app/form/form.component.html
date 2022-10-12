@@ -1,0 +1,36 @@
+<div class="container-fluid text-center">
+    <mat-card class="form" id="contacto">
+      <h2 class="text-center"><strong>Contacto</strong>   </h2>
+    <form  [formGroup]="formularioDeContacto" (ngSubmit)="alEnviarMensaje()">
+        <div class="row">
+            <div class="col-md-12 text-center">
+              <mat-form-field appearance="outline" >
+                <mat-label>Nombre</mat-label>
+                <input class="nombre1" matInput type="text" formControlName="nombre">
+              </mat-form-field>
+              <div *ngIf="formularioDeContacto.controls.nombre.errors" class="text-danger">
+                <div *ngIf="formularioDeContacto.controls.nombre.errors.required">Se necesita un Nombre.</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <mat-form-field appearance="outline" >
+                <mat-label>Mensaje</mat-label>
+                <input class="mensaje1" matInput type="text" formControlName="mensaje">
+              </mat-form-field>
+              <div *ngIf="formularioDeContacto.controls.mensaje.errors" class="text-danger">
+                <div *ngIf="formularioDeContacto.controls.mensaje.errors.required">Mensaje es necesario.</div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <button mat-stroked-button type="submit" color="accent">Enviar Mensaje</button>
+            </div>
+          </div>
+        </form>
+    </mat-card>
+      </div>
+      

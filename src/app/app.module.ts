@@ -17,6 +17,9 @@ import { InfoComponent } from './info/info.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { FooterComponent } from './footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { FormComponent } from './form/form.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -30,7 +33,8 @@ import { FooterComponent } from './footer/footer.component';
     InfoComponent,
     SkillsComponent,
     ProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +47,10 @@ import { FooterComponent } from './footer/footer.component';
     MatProgressBarModule,
     MatCardModule,
     MatListModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+
 
   ],
   providers: [],
