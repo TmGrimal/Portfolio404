@@ -6,6 +6,7 @@
 .nombre1{
     height: 25px;
     background-color: rgba(149, 136, 202, 0.894);
+    
 }
 
 .mensaje1{
@@ -21,4 +22,20 @@ color: rgb(190, 187, 190);
 
 #contacto{
     cursor:url(img/../../../assets/pez32px.png),auto;
+}
+
+#NM{
+    box-shadow: rgb(169, 136, 214, 0.749)0px 5px 15px;
+}
+
+#MS{
+    box-shadow: rgba(169, 136, 214, 0.749) 0px 5px 15px;
+}
+
+#Necesita{
+   color:  rgb(190, 187, 190);
+}
+
+#unMensaje{
+    color:rgb(190, 187, 190);
 }
