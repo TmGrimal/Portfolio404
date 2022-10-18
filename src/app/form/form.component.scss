@@ -1,41 +1,60 @@
+
 .form{
     background-color: transparent;
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .nombre1{
-    height: 25px;
-    background-color: rgba(149, 136, 202, 0.894);
+    height: 30px;
+    background-color: rgba(182, 190, 252, 0.944);
+    
     
 }
 
 .mensaje1{
-    height: 25px;
-    background-color: rgba(149, 136, 202, 0.894);
+    height: 50px;
+    width: 250px;
+    background-color: rgba(182, 190, 252, 0.944);
+    margin-left: -38px;
+   
 }
 h2{
-padding-bottom: 3%;
+margin-top: -10px;
 font-size: 27px;
 font-family: "Courgette", serif;
 color: rgb(190, 187, 190);
 }
 
 #contacto{
-    cursor:url(img/../../../assets/pez32px.png),auto;
+    cursor:url(~img/../../../assets/pez32px.png),auto;
 }
 
 #NM{
-    box-shadow: rgb(169, 136, 214, 0.749)0px 5px 15px;
+    border-radius: 6px;
+    size: 15px;
 }
 
 #MS{
-    box-shadow: rgba(169, 136, 214, 0.749) 0px 5px 15px;
+    border-radius: 6px;
 }
 
 #Necesita{
    color:  rgb(190, 187, 190);
+   margin-top: -20px;
+   margin-right: 20px;
 }
 
 #unMensaje{
     color:rgb(190, 187, 190);
+    margin-top: -20px;
+   margin-right: 20px;
+
+}
+.mat-success {
+    background-color: rgba(39, 39, 39, 0.392);
+    color: rgb(255, 255, 255);
+    border-color: rgb(16, 137, 137);
+    border-style: solid;
+  border-width: thin;
+  margin-right: 15px;
 }
