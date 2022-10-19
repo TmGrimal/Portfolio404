@@ -6,8 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "homepage" : "https://tmgrimal.github.io/Portfolio404/"
+    "test": "ng test"
+    
   },
   "private": true,
   "dependencies": {
