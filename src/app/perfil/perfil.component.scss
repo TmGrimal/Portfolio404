@@ -26,8 +26,7 @@ background-color: transparent;
 
 .texto1{
   color: rgb(255, 255, 255);
-font-size:30px;
-margin-top: 2%;
+font-size:25px;
 cursor:url(~img/../../../assets/pez32px.png),auto;
 font-family: 'morpheus';
 }
@@ -51,7 +50,7 @@ font-family: 'morpheus';
 .tam{
   background-color: transparent;
   padding-left: 230px;
-  margin-top: 30px;
+  margin-top: 1px;
 }
 
 #home{
@@ -59,6 +58,7 @@ font-family: 'morpheus';
   background-repeat:no-repeat;
   background-position-x:center;
   height: auto;
+  background-position-y:-70px ;
 
 }
 
@@ -101,7 +101,7 @@ span{
 }
 @keyframes maquina{
   from{
-    width: 88%;
+    width: 80%;
   }
   to{
     width: 0;
@@ -119,3 +119,4 @@ span{
 
  }
 }
+
