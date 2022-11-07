@@ -7,7 +7,7 @@
   margin-top: 8%;
   margin-bottom: 2%;
   z-index:1;
-  margin-right: 30%;
+  margin-right: 20%;
 }
 
 .container-fluid{
@@ -15,24 +15,28 @@ background-color: transparent;
 }
 
 .fotoperfil{
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border-width: 3px; 
+  width: 280px;
+  height: 380px;
+  border-radius: 25%;
   cursor:url(~img/../../../assets/pez32px.png),auto;
+  box-shadow: rgba(49, 49, 50, 0.214) 0px 50px 100px -20px, rgba(213, 213, 213, 0.871) 0px 30px 60px -30px, rgba(149, 111, 255, 0.356) 0px -2px 6px 0px inset;
+  margin-top: 4%;
+  opacity: 0.7;
 }
 
 .texto1{
-  color: rgb(190, 187, 190);
+  color: rgb(255, 255, 255);
 font-size:30px;
 margin-top: 2%;
 cursor:url(~img/../../../assets/pez32px.png),auto;
+font-family: 'morpheus';
 }
 
 .texto2{
-  color: rgb(190, 187, 190);
-  font-size:12px;
+  color: rgb(255, 255, 255);
+  font-size:14px;
   cursor:url(~img/../../../assets/pez32px.png),auto;
+  font-family: 'morpheus';
   }
 
 .redes a{
@@ -41,6 +45,7 @@ cursor:url(~img/../../../assets/pez32px.png),auto;
 
 #botones{
  margin-bottom: -27px;
+
 }
 
 .tam{
@@ -48,8 +53,19 @@ cursor:url(~img/../../../assets/pez32px.png),auto;
 }
 
 #home{
- // background-image: url(../../assets/humoVarriba.jpg);
+  background-image: url(~../../assets/luna22.jpg);
   background-repeat:no-repeat;
   background-position-x:center;
-  background-size: 100%;
+  height: auto;
+
+}
+
+.uno{
+   background-color: rgba(59, 59, 59, 0.726);
+}
+.dos{
+  background-color: rgba(59, 59, 59, 0.726);
+}
+.tres{
+  background-color: rgba(59, 59, 59, 0.726);
 }

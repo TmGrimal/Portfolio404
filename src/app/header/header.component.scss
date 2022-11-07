@@ -24,8 +24,9 @@ background-color: transparent;
 }
 
 .LL{
-  font-family: 'Courgette', serif;
-  font-size: 19px;
+ font-family: 'morpheus',sans-serif; 
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.773);
  
 
 }
@@ -34,17 +35,26 @@ background-color: transparent;
   color: rgb(190, 187, 190);
 }
 
-.navbar-brand{
-  font-family: "Courgette", serif;
+#navbarNav{
+  margin-top: 1%;
+  margin-right: 4%;
 
 }
+ #inicio{
+  margin-left: 2%;
+  font-family: 'morpheus', sans-serif;                                          
+  font-size: 45px;
+  letter-spacing: -2px;
+  color: rgba(255, 255, 255, 0.773);
+  margin-top: 2%;
 
+ }
 
-#todoElFrente{
-  background-image: url(~../../assets/dev.jpg);
-  background-repeat:no-repeat;
-  background-position-x:center;
-  background-position-y:center;
-  background-size: 100%;
-}
+//#todoElFrente{
+ // background-image: url(~../../assets/dev.jpg);
+ // background-repeat:no-repeat;
+//  background-position-x:center;
+//  background-position-y:center;
+ // background-size: 100%;
+//}
 
