@@ -13,9 +13,11 @@ margin-left: 5%;
 box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 
 
+
 }
 .LL{
-  font-family: 'Courgette', cursive;
+  font-family: 'morpheus', serif;
+  color: rgba(255, 255, 255, 0.773);
 
 
 }
@@ -23,23 +25,27 @@ box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 p{
   letter-spacing: 0.5px;
   margin-top: 30px;
-  margin-right: 30px;
+  margin-right: 25px;
+  margin-left: 20px;
   line-height: 21px;
   font-size: 15px;
- z-index: 1;
+ z-index: 2;
+ line-height : 30px;
 }
 
 #carta1{
-  background-image: url(~../../assets/MICHIFINAL.jpg);
-  background-position-x: 100%;
-  background-size:contain;
+  background-image: url(~../../assets/humoblancoabajo.jpg);
+
+  background-size: cover;
   background-repeat: no-repeat;
-  background-color: #88759d;
   cursor:url(~img/../../../assets/pez32px.png),auto;
+ 
 }
+
+
 h2{
   font-size: 27px;
-  font-family: "Courgette";
+  font-family: 'morpheus', serif;
   color: rgb(190, 187, 190);
   
 }
@@ -51,4 +57,10 @@ h2{
 
 #SobreMi{
   border: 1px solid transparent;
+}
+.card-body{
+  margin-top: 30px;
+  margin-left: 10px;
+  line-height : 25px;
+  font-size: 15px;
 }

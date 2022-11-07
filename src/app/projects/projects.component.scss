@@ -24,7 +24,7 @@ box-shadow: rgba(0, 0, 0, 0.16) 7px -7px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 background-image: url(~../../assets/Fzml9v.webp);
 }
 .LL{
-  font-family: "Courgette", serif;
+  font-family: 'morpheus', serif;
   cursor:url(~img/../../../assets/pez32px.png),auto;
 
 }
@@ -32,11 +32,15 @@ background-image: url(~../../assets/Fzml9v.webp);
 h2 {
   padding-top: 3%;
   font-size: 27px;
-  font-family: "Courgette", serif;
+    font-family: 'morpheus', serif;
   color: rgb(190, 187, 190);
 }
 h4{
-  font-family: "Courgette", serif;
+    font-family: 'morpheus', serif;
+    font-size: 18px;
+}
+p{
+letter-spacing: 1px;
 }
 
 .card-body{
@@ -46,4 +50,5 @@ h4{
 }
 .proyectos{
   background-color: transparent;
+  padding-top: 50px;
 }

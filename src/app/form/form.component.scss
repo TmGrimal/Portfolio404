@@ -7,6 +7,8 @@
 .nombre1{
     height: 30px;
     background-color: rgba(182, 190, 252, 0.944);
+    font-family: 'morpheus', serif;
+    letter-spacing: 1px;
     
     
 }
@@ -16,17 +18,20 @@
     width: 250px;
     background-color: rgba(182, 190, 252, 0.944);
     margin-left: -38px;
+    font-family: 'morpheus', serif;
+    letter-spacing: 1px;
    
 }
 h2{
 margin-top: -10px;
 font-size: 27px;
-font-family: "Courgette", serif;
+font-family: 'morpheus', serif;
 color: rgb(190, 187, 190);
 }
 
 #Contacto{
     cursor:url(~img/../../../assets/pez32px.png),auto;
+    padding-top: 120px;
 }
 
 #NM{
@@ -42,18 +47,20 @@ color: rgb(190, 187, 190);
    color:  rgb(190, 187, 190);
    margin-top: -20px;
    margin-right: 20px;
+   font-family: 'morpheus', serif;
 }
 
 #unMensaje{
     color:rgb(190, 187, 190);
     margin-top: -20px;
    margin-right: 20px;
+   font-family: 'morpheus', serif;
 
 }
 .mat-success {
     background-color: rgba(39, 39, 39, 0.392);
     color: rgb(255, 255, 255);
-    border-color: rgb(16, 137, 137);
+    border-color: rgb(167, 193, 193);
     border-style: solid;
   border-width: thin;
   margin-right: 15px;

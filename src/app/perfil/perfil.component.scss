@@ -50,6 +50,8 @@ font-family: 'morpheus';
 
 .tam{
   background-color: transparent;
+  padding-left: 230px;
+  margin-top: 30px;
 }
 
 #home{
@@ -68,4 +70,52 @@ font-family: 'morpheus';
 }
 .tres{
   background-color: rgba(59, 59, 59, 0.726);
+}
+
+p{
+  position: relative;
+}
+span{
+  position:absolute;
+  right: 0;
+  width: 0;
+  height: 38px;
+  margin-top: -5px;
+  background: rgb(0, 0, 0);
+  border-left: 1px solid #000;
+
+  animation: maquina 4s infinite alternate steps(25);
+
+}
+.spanDos{
+  position:absolute;
+  right: 0;
+  width: 0;
+  height: 38px;
+  margin-top: -5px;
+  background: rgb(0, 0, 0);
+  border-left: 1px solid #000;
+
+  animation: maquina 4s infinite alternate steps(25);
+
+}
+@keyframes maquina{
+  from{
+    width: 88%;
+  }
+  to{
+    width: 0;
+  }
+}
+
+.ocultarSpan{
+  display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .ocultarSpan {
+  display: none;
+
+ }
 }
